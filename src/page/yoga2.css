@@ -1,0 +1,641 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hover:hover {
+  background-color: #70c2cc;
+
+  cursor: pointer;
+}
+
+.card22 {
+  justify-content: center;
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.active,
+.btn:hover {
+  background-color: #70c2cc;
+  /* color: white; */
+}
+
+.html,
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.ulnav12 {
+  position: relative;
+
+  right: 16.563vw;
+}
+
+.nav-1 {
+  width: 100px;
+}
+
+.nav-1-img {
+  margin: 0 !important;
+
+  padding: 0 !important;
+}
+
+.video-section {
+}
+
+/* ---------------------------------------------------------------------------------------------------option column-------------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 718px) {
+  .optioncolumn {
+    height: auto !important;
+
+    display: flex !important;
+
+    justify-content: space-between;
+
+    border: none !important;
+
+    gap: 4px;
+
+    width: 100px !important;
+    align-items: end;
+
+    padding-right: 2px !important;
+
+    margin: 0 !important;
+
+    padding-left: 10px !important;
+  }
+
+  .h1header {
+    position: relative !important;
+
+    bottom: 100px;
+  }
+
+  .option3 {
+    /* width: 900px !important; */
+
+    font-size: 16px !important;
+
+    text-align: start !important;
+
+    /* padding-right: 100px !important; */
+
+    /* margin-left: 100px; */
+
+    position: relative;
+
+    left: 60px;
+  }
+
+  .option2 {
+    display: flex !important;
+
+    flex-direction: column !important;
+  }
+
+  .video1 {
+    position: relative !important
+
+
+  ;
+
+    right: 10px !important;
+  }
+
+  .mqcard22 {
+    position: relative;
+
+    right: 100px;
+  }
+}
+/* -----------------------------------------------------------------------------menu----------------------------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 603px) {
+  #show {
+    display: none;
+  }
+
+  .menu {
+    position: relative !important;
+
+    left: 40vw;
+
+    display: block !important;
+  }
+
+  .mqcard22 {
+    position: relative;
+
+    left: 10px;
+  }
+}
+
+/* --------------------------------------------------------------------------------------------------ipad mini ------------------------------------------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 768px) {
+  * {
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+  }
+
+  /* ------------------------------------------------------------------------------------------------------------- nav----------------------------------------------------------------------------------------------------------------- */
+  .menu {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-left: 35px;
+    width: 31.25vw;
+  }
+
+  .textli {
+    font-weight: 400;
+    font-size: 11px !important;
+    width: 32px;
+    height: 15px;
+    line-height: 14.98px;
+  }
+
+  .ulnav {
+    margin-left: 45.2vw;
+
+    position: relative !important;
+
+    right: 310px;
+
+    display: flex;
+
+    gap: 30px;
+  }
+
+  .btnli2 {
+    border-radius: 0%;
+
+    width: 9.167vw !important ;
+
+    padding: 0;
+
+    margin-top: 2px;
+
+    height: 21px !important;
+
+    display: flex;
+
+    align-items: center;
+  }
+
+  .textlibtn {
+    font-size: 60%;
+
+    height: 11px;
+
+    width: 59px;
+    /* 
+position: relative;
+
+bottom: 10px; */
+
+    font-weight: 400;
+
+    padding: 0;
+  }
+
+  .navtextbig {
+    position: relative;
+
+    right: 24px;
+
+    padding-top: 26px !important;
+
+    font-size: 12px !important;
+
+    font-weight: 700 !important;
+  }
+
+  /* ????????????????????????????????????????????????????????????????????????????????????????????????????img right col section    ???????????????????????????????????????????????????????????????????????????////////////////////////////////////////////////// */
+
+  .nav_img {
+    position: relative;
+
+    width: 423px !important;
+
+    height: auto;
+
+    bottom: 40px;
+
+    z-index: -1;
+  }
+
+  /* ------------------------------------------------------------------------------left side col  ---------------------------------------------------------------------------------------------- */
+
+  .mh1 {
+    /* font-size: 3.808vw !important;
+        width: 15.313vw;
+        line-height: 40px !important;
+        font-size: 10vh;
+margin-top: 0;
+
+/* padding-bottom: ; */
+    /* padding-right: 19.375vw !important;
+padding-top: 3.49vw !important;  */
+
+    position: relative;
+
+    bottom: 140px;
+
+    left: 20px;
+
+    position: relative;
+
+    right: 24px;
+  }
+
+  .container_textm {
+    position: relative;
+
+    bottom: 350px;
+
+    right: 1.25vw;
+
+    width: 11.563vw;
+
+    margin-right: 0px !important;
+  }
+
+  .mptext {
+    position: relative;
+
+    bottom: px;
+    right: 13px;
+
+    width: 222px;
+
+    top: 200px;
+    padding-right: 58px !important;
+
+    line-height: 22.5px !important;
+
+    font-size: 14px !important;
+  }
+
+  .btnmq1 {
+    width: 18.344vw !important;
+
+    font-size: 100% !important;
+
+    height: 40px !important;
+  }
+
+  .btnmq {
+    width: 18.344vw !important;
+
+    height: 6vh !important;
+
+    position: relative;
+
+    bottom: 130px;
+
+    right: 14px;
+  }
+
+  .btnmq2 {
+    width: 14.354vw !important;
+    padding-left: 1px !important;
+
+    text-align: center;
+
+    position: relative;
+
+    bottom: 69px;
+
+    height: 1vh !important;
+  }
+
+  /* +===========================================================================videos section------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+  .sec1_h1 {
+    position: relative;
+
+    bottom: 250px;
+
+    font-size: 4.5vw !important;
+
+    padding-top: 127px !important;
+  }
+
+  .card_body {
+    width: 259px !important;
+  }
+
+  .boredr_option {
+    padding-right: 200px;
+  }
+
+  .option {
+    width: 490px !important;
+
+    padding-right: 32px !important;
+
+    padding-left: 10px !important;
+  }
+
+  .mgiamge {
+    width: 259px !important;
+  }
+
+  .video1 {
+    display: flex;
+
+    justify-content: center !important;
+
+    gap: 11em !important;
+
+    row-gap: 10px !important;
+
+    position: relative;
+
+    right: 60px;
+  }
+
+  .video2 {
+  }
+
+  .section_video {
+    position: relative;
+
+    bottom: 210px;
+  }
+
+  .option2 {
+    margin-right: 17px !important;
+  }
+
+  .videocontent {
+    /* display: flex;
+  
+  justify-content: center; */
+
+    width: 1238px;
+
+    margin-right: 1000px !important;
+  }
+
+  .videoyoutube {
+    width: 500px !important;
+
+    position: relative;
+
+    right: 400px;
+  }
+
+  .close {
+    position: relative !important
+  
+  
+  
+  ;
+
+    width: 100px !important;
+
+    height: 100px !important;
+
+    left: 150px;
+  }
+
+  /* -----------------------------------------------------------------------------------------------yoga cards ------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+  .cardsyoga {
+    position: relative;
+
+    right: 60px;
+
+    margin-left: 200px;
+
+    justify-content: center;
+    display: flex;
+
+    flex-wrap: wrap;
+  }
+
+  .h1_yogacards {
+    width: 65.042vw;
+
+    font-size: 5vw !important;
+
+    position: relative;
+
+    bottom: 90px;
+
+    left: 150px;
+  }
+
+  .uspara {
+    position: relative;
+
+    top: 150px;
+  }
+
+  /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////caroual 1  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+  .Carousal-h1 {
+    font-size: 5.083vw !important;
+  }
+
+  .carditem1 {
+    width: 400px !important;
+  }
+  .cardimgcenter {
+    position: absolute;
+  }
+
+  .carditem1 {
+    position: relative;
+
+    width: 50.833vw !important;
+
+    right: 44vw;
+  }
+
+  .smain2 {
+    width: 176vw !important;
+
+    gap: 40px !important;
+
+    display: flex;
+
+    justify-content: space-between;
+  }
+
+  .btn_areamq1 {
+    position: absolute !important;
+
+    bottom: 90px !important;
+  }
+
+  .sliderbtnN1 {
+    font-size: 5vw !important;
+
+    position: absolute !important;
+
+    left: 63vw !important;
+  }
+
+  .sliderbtnP1 {
+    position: absolute !important;
+
+    font-size: 5vw !important;
+    left: 7vw !important;
+  }
+
+  /* 
+.headercards{
+
+position: relative;
+
+right: 100px;
+
+
+font-size: 99vw !important;
+
+height: 96px !important;
+
+width: 288px !important;
+} */
+
+  .headercards {
+    position: relative;
+    width: 42vw !important;
+    height: 96px;
+    right: 16vw;
+    font-size: 3.7vw !important;
+  }
+
+  .cardimg {
+    padding: 0px !important;
+    width: 164px !important;
+
+    position: absolute;
+
+    top: 120px;
+  }
+
+  .catogry {
+    position: relative;
+
+    bottom: 10px;
+  }
+
+  * {
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+  }
+
+  #cardrow {
+    position: relative;
+
+    left: 90px;
+  }
+
+  /* ////////////////////////////////////////////////////////////////////////////////////////////////////////// the carousal 2////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+  .h1_carousal2 {
+    font-size: 5vw !important;
+  }
+
+  .wrap1 {
+  }
+
+  .main1 {
+    margin: 0 !important;
+
+    padding: 0 !important;
+
+    display: flex !important;
+
+    gap: 10px;
+  }
+
+  .itemCaroual {
+    position: relative !important;
+
+    margin-right: 51px !important;
+
+    right: 306px !important;
+
+    width: 249.01px !important;
+  }
+
+  .image2 {
+    width: 290px !important;
+
+    margin: 0 !important;
+  }
+
+  .fluid {
+    padding: 0 !important;
+
+    margin: 0 !important;
+
+    position: relative;
+
+    left: 120px;
+  }
+
+  .btn_area2 {
+    position: absolute !important;
+  }
+
+  .arrowbtnN {
+    position: relative !important;
+
+    left: 93vw !important;
+
+    top: -215px;
+
+    font-size: 5vw !important;
+  }
+
+  .arrowbtnP {
+    position: relative !important;
+
+    bottom: 163px !important;
+
+    font-size: 5vw !important;
+
+    height: 10px !important;
+  }
+
+  /* /////////////////////////////////////////////////////////////////////////////////// footer///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+  .footer1 {
+    position: relative !important;
+
+    right: 130px !important;
+
+    bottom: 50px;
+  }
+
+  .h1footer {
+    font-size: 5vw !important;
+  }
+}

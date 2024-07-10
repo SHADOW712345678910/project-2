@@ -1,0 +1,42 @@
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: rebeccapurple;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  width: 49.5%;
+}
+
+.card {
+  overflow: hidden;
+}
+
+.card-container img {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+
+.card-container :hover img {
+  transform: scale(1.1);
+}
+
+.videocards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  gap: 5em;
+}

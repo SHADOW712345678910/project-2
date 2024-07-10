@@ -1,0 +1,353 @@
+@media only screen and (max-width: 414px) {
+  /* ===============================================================NAV ======================================================================================================================================== */
+
+  .XRROW {
+    display: flex;
+
+    flex-direction: column-reverse;
+  }
+
+  .XRlogo {
+    width: 100px !important;
+
+    font-size: 27px !important;
+  }
+
+  .XRmenu {
+    position: relative !important;
+    left: 108px;
+    width: 18px !important;
+    margin-top: 15px;
+    bottom: 7px !important;
+  }
+
+  .XRMENUE1 {
+    font-size: 10px !important;
+
+    width: 29px !important;
+  }
+
+  /* =========================================================================================================================IMAGE--------------------------------------------------------------------------------------- */
+
+  .xRimg {
+    width: 582px !important;
+  }
+
+  .xRimg1 {
+    position: relative;
+
+    bottom: 169px;
+
+    right: 207px;
+
+    width: 10px !important;
+  }
+
+  /* ===================================================================================================DOWN SIDE TEXT btn --------------------------------------------------------------------------------------------- */
+
+  .xrH1 {
+    font-size: 37px !important;
+    width: 408px !important;
+    position: relative;
+    left: 179px;
+    bottom: 319px;
+  }
+
+  .XRPARA {
+    width: 469px !important;
+    position: relative;
+    font-size: 22px !important;
+    left: -16px;
+    top: 38px;
+
+    line-height: 29px !important;
+  }
+
+  .XRBTN1 {
+    width: 140px !important;
+    font-size: 14px !important;
+
+    font-weight: 400 !important;
+  }
+
+  .XRBTN {
+    width: 140px !important;
+
+    position: relative;
+
+    bottom: 322px;
+    right: 23px;
+  }
+
+  .XRBTNcon {
+    width: 85px !important;
+
+    position: relative;
+
+    bottom: 261px;
+    right: 10px;
+  }
+
+  .XRBTN2 {
+    width: 151px !important;
+    margin-top: 6px;
+  }
+
+  /* ===============================================================================================videos section ============================================================================================ */
+
+  .XRh1vid {
+    position: relative;
+
+    bottom: 561px;
+    left: 67px;
+
+    font-weight: 700 !important;
+
+    font-size: 30px !important;
+  }
+
+  .XRVIDEOSECTION {
+    position: relative;
+
+    bottom: 535px;
+    right: -4px;
+  }
+
+  .XROPTIONCOLUMN {
+    position: relative;
+
+    right: 40px;
+
+    padding-bottom: 40px !important;
+  }
+
+  .XROPTION {
+    width: -1px !important;
+
+    margin: 0px !important;
+
+    padding: 0px !important;
+  }
+
+  .XRVIDEOCONTENT {
+    position: relative;
+
+    left: 10px;
+
+    height: 1000px;
+  }
+
+  .XRCLOSE {
+    position: relative;
+
+    left: 315px !important;
+  }
+
+  .XRVIDEOYOUTUBE {
+    width: 300px;
+  }
+
+  .XRBODY {
+    width: 1384px !important;
+  }
+
+  .XRUS {
+    width: 329px;
+
+    margin-left: 211px;
+  }
+
+  /* ======================================================================================================================YOGACARDS================================================================================== */
+
+  .XRH1YOGACARD {
+    width: 338px !important;
+    font-size: 35px !important;
+
+    position: relative;
+
+    bottom: 442px;
+    left: 121px;
+  }
+
+  .XRYOGACARDS {
+    gap: 16px !important;
+
+    display: grid !important;
+
+    grid-template-columns: 1fr 1fr;
+
+    position: relative;
+
+    bottom: 455px;
+
+    left: -33px !important;
+  }
+
+  .XRYCARD {
+    width: 100px;
+  }
+
+  /* .XRYP{
+
+    width: 123px;
+    position: relative;
+    right: 19px;
+
+
+} */
+
+  /* //////////////////////////////////////////////////////////////////////////////////// carouasl 1 ///////////////////////////////////////////////////////////////////////////////////////////////////////   */
+
+  .XRH1CAROUSAL1 {
+    position: relative;
+    font-size: 33px !important;
+    bottom: 506px;
+    left: 68px;
+  }
+
+  .XRSMAIN2 {
+    width: 1000% !important;
+    display: flex !important;
+
+    justify-content: center !important;
+
+    gap: 100px !important;
+  }
+
+  .XRITEM {
+    width: 86vw !important;
+    position: relative;
+
+    right: 516px;
+  }
+
+  .XRWRAP {
+    position: relative;
+
+    left: -8px;
+    bottom: 513px !important;
+  }
+
+  .XRAREA {
+    position: absolute;
+    bottom: 106px !important;
+    right: 320vw;
+  }
+
+  .XRBTNSP {
+    position: absolute !important;
+
+    left: 100px !important;
+
+    font-size: 33px !important;
+
+    left: -27px !important;
+  }
+
+  .XRBTNSN {
+    font-size: 33px !important;
+    position: absolute !important;
+    left: 342px !important;
+  }
+
+  .xrh1c {
+    font-size: 20px !important;
+  }
+
+  /* -----------------------------------------------------------------------------carousal-2----------------------------------------------------------------------------------------------------------------------------------------- */
+
+  .XRH1C2 {
+    font-size: 33px !important;
+    position: relative;
+    bottom: 553px;
+    left: 94px;
+  }
+
+  .XRC2WRAP {
+    overflow: visible !important;
+  }
+
+  .XRMAIN2 {
+    display: grid !important;
+    row-gap: 235px;
+
+    column-gap: 0px;
+
+    grid-template-columns: 1fr 1fr !important;
+
+    width: 100% !important;
+
+    position: static !important;
+  }
+
+  .XRITEM3 {
+    position: relative !important;
+    bottom: 600px;
+    left: -53px !important;
+  }
+
+  .XRITEMDELTE {
+    display: none !important;
+  }
+
+  .XRIMG {
+    width: 257px !important;
+
+    height: 316px !important;
+  }
+
+  .XRT {
+    width: 0px !important;
+  }
+
+  .XRAREA3 {
+    display: none !important;
+  }
+
+  .XRUS22 {
+    position: relative !important;
+    bottom: 285px !important;
+    left: 83px !important;
+  }
+
+  /* ==========================================================================================footer================================================================================================================== */
+
+  .XRS {
+    font-weight: 700 !important;
+
+    font-size: 28px !important;
+  }
+
+  .XRH1FOOTER {
+    font-size: 39px !important;
+    font-weight: 700 !important;
+    width: 412px !important;
+    height: 35px !important;
+  }
+
+  .XRULFOOTER {
+    justify-content: space-between;
+
+    gap: 20px !important;
+
+    padding-top: 67px !important;
+
+    position: relative;
+
+    left: 37px;
+  }
+
+  .XRFOOTER1 {
+    position: relative !important;
+
+    bottom: 281px;
+  }
+
+  .html,
+  body {
+    margin: 0px !important;
+    padding: 0px !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+}

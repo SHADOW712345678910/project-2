@@ -1,0 +1,91 @@
+.section-O {
+  position: relative;
+
+  bottom: 50px;
+}
+
+.slider-wrap {
+  margin: 0px;
+
+  padding: 0px;
+  flex-wrap: wrap;
+  display: flex;
+
+  height: 653px;
+}
+
+.slider-main2 {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(0px);
+
+  margin: 0px;
+
+  padding: 0px;
+
+  gap: 5px;
+
+  width: 67%;
+
+  position: relative;
+
+  left: 20%;
+}
+
+#cardrow {
+  display: flex;
+}
+
+.item2 {
+  width: 22vw;
+
+  display: inline-block;
+
+  height: 900px;
+}
+
+.text {
+  height: 353px;
+
+  color: aliceblue;
+}
+
+.btn-area1 {
+  position: absolute;
+
+  bottom: 6px;
+}
+
+.slider-btnP {
+  position: relative;
+
+  bottom: 550px;
+
+  right: 60px;
+
+  background-color: transparent;
+
+  border: none;
+  font-size: 3.646vw;
+
+  outline: 0px solid transparent;
+
+  cursor: pointer;
+}
+
+.slider-btnN {
+  outline: 0px solid transparent;
+  position: relative;
+  left: 850%;
+  background-color: transparent;
+  border: none;
+  font-size: 3.646vw;
+
+  bottom: 550px;
+
+  cursor: pointer;
+}
+
+.h1cards {
+  font-size: 1.25vw;
+}
